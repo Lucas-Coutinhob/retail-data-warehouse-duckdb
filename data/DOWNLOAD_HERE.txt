@@ -1,0 +1,15 @@
+Dataset: Instacart Market Basket Analysis
+Source: Kaggle
+Link: https://www.kaggle.com/datasets/yasserh/instacart-online-grocery-basket-analysis-dataset
+
+Instructions:
+1. Download all CSV files from the link above
+2. Save them in the data/raw/ folder:
+   - aisles.csv
+   - departments.csv
+   - order_products__prior.csv
+   - order_products__train.csv
+   - orders.csv
+   - products.csv
+3. Run the notebook at notebooks/retail_analytics.ipynb
+4. The Parquet files and DuckDB warehouse are generated automatically
